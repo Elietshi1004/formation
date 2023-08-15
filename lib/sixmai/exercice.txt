@@ -1,0 +1,14 @@
+Exercice 1 :
+Ecrire un programme en dart qui permet à quelqu'un d'entrer un nombre et lui affiche le carré de ce nombre
+
+Exercice 2:
+Ecrire un programme dart qui demande d'entrer deux nombres et vérifient lequel est le plus grand
+
+Exercice 3 : 
+Ecrire un programme dart qui demande à l'utilisateur d'entrer son nom postnom et prenom et lui souhaite la bienvenue
+
+Exercice 4 :
+Ecrire un programme dart qui permet de vérifier que un nombre est pair ou impair
+
+Exercice 5 : faites un calculatrice en dart, ca veut dire que l'utilisateur entre d'abord l'opération qu'il veut effectuer
+ensuite entre les deux nombres et l'opération s'effectue et il voit les résultats
