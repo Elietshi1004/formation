@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'chatApp/alydor/UI/screens/Authscreen/auth.dart';
 import 'home.dart';
 import 'home2.dart';
 import 'likorec.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         // home: HomeUI(),
         // home: MyHomePage()
         // home: WooclapUI(),
-        home: Repro());
+        home: AuthUI());
   }
 }
 
