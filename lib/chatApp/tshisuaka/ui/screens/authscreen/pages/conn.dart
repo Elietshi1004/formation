@@ -20,26 +20,43 @@ class _LoginuiState extends State<Loginui> {
               children: [
                 Text("hello"),
                 Text("connectez-vous"),
-          CustomTextfield(context,context:'Adresse Email'),
-          Custom     
+          CustomTextField(context:context,text:'Adresse Email'),
+          CustomTextField(context:context,text:'Mot passe'),
+          Padding(
+            padding:const EdgeInsets.only(right:20),
+            child:Row(
+              mainAxisAlignment:MainAxisAlignment.end,
+              children:[
+                InkWell(
+                  onTap:(){},
+                  child:Text('Mot de passe oublier')
+                ),
               ],
             ),
-            width: MediaQuery.of(context).size.width * 0.9,
-            height: MediaQuery.of(context).size.height * 0.5,
-            decoration: BoxDecoration(color: Colors.white),
           ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text("pas de compte"),
-                Text("creer", style: TextStyle(color: Colors.red))
+              ],
+            ),
+            Padding(
+              padding:const EdgeInsets.all(8.0),
+              child:InkWell(
+                onTap:(){},
+                child:Container(
+                  height:75,
+                  width:100,
+                  decoration:BoxDecoration(
+                    color:Colors.red,
+                    borderRadius:
+                    BorderRadius.circular(20)
+                  ),
+                  child:Center(child:Text("Login",style:TextStyle(color:Colors.white),)),
+                ),
+              ),
+            ),)
               ],
             ),
           )
         ],
-      ),
+    )
     );
   }
 }
