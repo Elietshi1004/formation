@@ -8,7 +8,7 @@ import 'likorec.dart';
 import 'exeliko.dart';
 
 void main() {
-  runApp(const MyApp());rty
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {

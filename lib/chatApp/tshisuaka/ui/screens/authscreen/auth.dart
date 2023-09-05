@@ -12,6 +12,6 @@ class AuthUI extends StatefulWidget {
 class _AuthUIState extends State<AuthUI> {
   @override
   Widget build(BuildContext context) {
-    return LoginU();
+    return LoginUI();
   }
 }
