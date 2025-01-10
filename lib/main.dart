@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:formation/nathanformation/ui/pageanim.dart';
 import 'package:get/get.dart';
 
 import 'chatApp/tshisuaka/ui/screens/authscreen/auth.dart';
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         // home: HomeUI(),
         // home: MyHomePage()
         // home: WooclapUI(),
-        home: AuthUI());
+        home: AnimUI());
   }
 }
 
